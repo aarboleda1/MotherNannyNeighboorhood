@@ -43,6 +43,13 @@
      width: 1000px;
      margin: 0 auto;
 }
+/*Map styling for map*/
+#map {
+        height: 300px;
+        width: 90%;
+        margin: 0px; 
+        padding: 0px;
+}
 
 li {
   display: inline-block
@@ -160,8 +167,8 @@ table {
 div{
   
   height: 100px;
-  margin: 20px;
-  padding: 20px;
+  margin: 00px;
+  padding: 00px;
   width: 200px;
 }
 
@@ -541,6 +548,8 @@ input[type="text"] {
 .calendars {
 
 }
+
+
 
 
 
