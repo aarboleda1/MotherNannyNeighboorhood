@@ -158,7 +158,7 @@ table {
 }
 
 .header-text {
-  padding: 200px 0;
+  padding: 160px 0;
   font-size: 38px;
 }
 
@@ -220,6 +220,12 @@ body {
   text-align: center;
 }
 
+.content h4 {
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
 /*
   ========================================
   Buttons
@@ -237,7 +243,7 @@ body {
 }
 
 .signup-btn {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .signup-btn h5 {
