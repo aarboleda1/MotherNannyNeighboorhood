@@ -1,51 +1,150 @@
+<!--<!DOCTYPE html>
+
+<head>
+  <title>MotherNannyNeighboorhood</title>
+  <script src="js/jquery.js"></script>
+  <script src="js/nanny_request.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div id="page-wrap">
+    <div class="main-navbar">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Find Me a Nanny</li>
+      </ul>
+
+    </div>
+    <div class="main-container">
+      <p class="mission-statement">Find some help from another mother in your neighboorhood</p>
+      <div id="button-container">
+        <div class="find-me-nanny-button">
+          <a href="#" class="myButton">Find Me a Nanny</a>
+        </div>
+        <div class="">
+          <a href="#" class="myButton">How it Works</a>
+        </div>
+           <div class="search">
+          <a href="#" class="myButton">Search</a>
+        </div>
+      </div>
+      <div id="main-calendar-container">
+        <div id="calendar-container">
+          <div class="calendars">
+            <p>Date: <input type="text" class="datepicker"></p>
+          </div>
+          <p>Date: <input type="text" class="datepicker"></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="messages"></div>
+  </div>
+</body>
+<html>!-->
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>MotherNannyNeighboorhood</title>
-		<script src="js/jquery.js"></script>
-    	<script src="js/index.js"></script>
-    	<script src="js/nanny_request.js"></script>
-		<link rel="stylesheet" href="jquery-ui.min.css">
-		<script src="external/jquery/jquery.js"></script>
-		<script src="jquery-ui.min.js"></script>
+	<head> 
+		<meta charset="utf-8">
+		<!--this is how to make a comment in a html file equivalent to // in javascript-->
+		<title>Anton Arboleda</title>
+		<link type='text/css' rel='stylesheet' href='css/main.css'>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i|Roboto" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  		<script src="js/nanny_request.js"></script>
+
+		<!--<link rel="aboutme" href="aboutme.html">-->
 	</head>
 	<body>
-		<div class="main-navbar">
-			<ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Find me a Nanny</li>
-			</ul>
 		
-		</div>
-		<div class="main-container">
-			<p class="mission-statement">Find some help from another mother in your neighboorhood</p>
-			<div class="find-me-nanny-button">
-				<a href="#" class="myButton">Find me a Nanny</a>
-			</div>
-			<div class="">
-				<a href="#" class="myButton">How it Works</a>
-			</div>
-			<div id="calendar-container">
-				<p>Date: <input type="text" id="datepicker"></p>
-				<p>Date: <input type="text" id="datepicker"></p>
-				<input type="text" name="date" id="date">
+		<!--Header-->
 
-			</div>
-		</div>
+		<header class="primary-header container group">
+		  <h1 class="logo">
+		  	<a href="index.html">Find Me a Nanny</a>
+		  </h1>
+		 
+		  	<nav class="primary-nav">
+			  <a href="index.html">Home</a>
+			  <a href="findnannys.html">Find_Nanny</a>
+			  <a href="portfolio.html">Resources</a>
+			  
+			  <a href="contact.html" alt="contact">Contact</a>
+			</nav>		
+		</header>
+
+		<!--Hero-->
+		<section class="hero container">
+
+			<h2>MommyNannyShare</h2>
+			<p>Need someone to take care of your kids? Find someone locally to take the burden off your back</p>
+
+		</section>	
+
+		<!--row-->
+
+		<section class="row">
 		
+		<!--Teasers-->
 
+			<section class="grid">
 
+				<!--about me-->
+				<section class="teaser col-1-3">
+				    <div class="calendars">
+				    <a href="#" class="myButton">Find Me a Nanny Now</a>
+            			<p>Date: <input type="text" class="datepicker"></p>
+          			</div>
+				</section>
+				<!--portfolio-->
+				<section class="teaser col-1-3">
+					<a href="portfolio.html">
+						
+					</a>
+				   
+				</section>
+				<!--blog-->
+				<section class="teaser col-1-3">
+				    <div class="calendars">
+				    	<a href="#" class="myButton">How it Works</a>
 
-		<div class="messages"></div>
+            			<p>Date: <input type="text" class="datepicker"></p>
+          			</div>
+				</section>
+				
+			</section>
+		
+		</section>
 
-		<form id="message-form">
-			<input type="text" name="message" autocomplete="off" placeholder="Send a message!"/>
-			<button type="submit"><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></button>
-		</form>
+    <!--footer-->
 	
-    
-	</body>
+	<footer class="primary-footer container group">
+	<small>&copy; AntonArboleda</small>
+
+	   
+	   	<nav class="nav">
+		  <a href="index.html">Home</a>
+		  <a href="about.html">About</a>
+		  <a href="portfolio.html">Portfolio</a>
+		  <a href="blog.html">Blog</a>
+		</nav>
+
+	</footer>
+	
+	
+    </body>
 </html>
