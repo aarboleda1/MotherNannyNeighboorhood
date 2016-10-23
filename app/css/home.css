@@ -122,7 +122,6 @@ table {
 }
 
 .nav a {
-  text-decoration: none;
   text-transform: uppercase;
   color: black;
   font-size: 18px;
@@ -142,6 +141,9 @@ table {
   float: left;
   font-size: 50px;
   padding: 20px;
+  font-size: 60px;
+  line-height: 2;
+  color: black;
 }
 
 /*
@@ -158,7 +160,7 @@ table {
 }
 
 .header-text {
-  padding: 160px 0;
+  padding: 180px 0;
   font-size: 38px;
 }
 
@@ -181,6 +183,11 @@ table {
   border-right: 1px solid black;
 }
 
+.preview h2 {
+  font-size: 20px;
+  padding: 90px 25px;
+}
+
 /*
   ========================================
   Typography
@@ -188,12 +195,11 @@ table {
 */
 
 body {
-  font: 70px/2 'Playfair Display', "Helvetica Neue", Helvetica, Arial, serif;
+  font-family: 'Playfair Display', "Helvetica Neue", Helvetica, Arial, serif;
 }
 
-.preview h2 {
-  font-size: 20px;
-  padding: 90px 25px;
+body a {
+  text-decoration: none;
 }
 
 /*
@@ -209,21 +215,22 @@ body {
 
 .content h3 {
   padding: 5px 20px;
-}
-
-.content-header {
   font-size: 30px;
+  color: black;
 }
 
 .testimonial {
   font-size: 20px;
   text-align: center;
+  background-color: rgba(170, 180, 222, 0.5);
+  line-height: 1.5;
 }
 
 .content h4 {
   font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
-  padding: 0 20px;
+  padding: 5px 20px;
+  line-height: 1.3;
 }
 
 /*
@@ -238,10 +245,6 @@ body {
   display: inline-block;
 }
 
-.btn a {
-  text-decoration: none;
-}
-
 .signup-btn {
   margin-top: 10px;
 }
@@ -251,3 +254,21 @@ body {
   font-size: 24px;
   padding: 10px 20px;
 }
+
+.signup-btn:hover {
+  cursor: pointer;
+  background: rgba(35, 68, 164, .7)
+}
+
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.primary-footer {
+  padding-top: 60px;
+}
+
+
