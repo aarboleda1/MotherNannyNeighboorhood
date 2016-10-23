@@ -1,0 +1,23 @@
+.respondersmain{
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+}
+
+.col-1 {
+  width: 25%;
+  color: red;
+}
+
+.col-2 {
+  width: 75%;
+  color: blue;
+}
+
+.review {
+  font-size:20px;
+  border-color:blue;
+  border-style:solid;
+  position:absolute;
+}
