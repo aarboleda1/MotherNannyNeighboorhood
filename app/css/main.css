@@ -1,0 +1,546 @@
+.myButton {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#page-wrap {
+     width: 1000px;
+     margin: 0 auto;
+}
+
+li {
+  display: inline-block
+}
+
+.find-me-nanny-button {
+	display: inline-block;
+}
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+/*this is how to make comments in a css file*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ======================
+  Grid
+  ======================
+*/
+*,
+*before,
+*after:{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.teaser-col-1-3,
+.grid{
+  width: 240px;
+  
+}
+.container,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+  padding: 20px;
+}
+.container{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.grid,
+.col-1-3,
+.col-2-3{
+  width: 960px;
+  float: none;                    /* cannot get all three to line up */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.col-1-3,
+.col-2-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-1-3 {
+  width: 28.33%;
+  text-align: center;
+}
+.col-2-3{
+  width: 66.66%;
+}
+
+.col{
+  width: 40%;
+}
+div{
+  
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+   content:"";
+   display: table;
+}
+.group:after {
+   clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+h1, h2, h3, h4{
+  color: #648880;
+}
+h1, h3, h4, h5, p{
+  margin-bottom: 22px;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  color: #3e3b3b;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+strong {
+  font-weight: 400;
+}
+cite,
+em{
+  font-style: italic;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  color: #3e3b3b;
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9;
+}
+p a{
+  border-bottom: 1px solid #dfe2e5;
+}
+
+
+
+
+/* this is how you combine selectors 
+   .headerone.p header {
+      background: yellow;
+   }
+*/
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+.hero{
+   padding: 22px 80px 66px 80px;
+}
+
+
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+  border-top: 4px solid #64880;
+  float: left;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: .4px;
+  line-height: 44px;
+  padding: 48px 0 22px 0;
+  text-transform: uppercase;
+}
+
+.primary-nav {
+  margin: 70px 0 22px 0;
+  text-align: right;
+}
+
+.primary-nav {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  border-top: 4px solid #64880;
+}
+
+
+/*
+  =========================================
+  Primary footer
+  =========================================
+*/
+
+.primary-footer {
+  color: #648880;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top 44px;
+}
+
+.primary-footer small{
+   float: left;
+   font-weight: 400;
+}
+
+/*
+================================
+Custom Styles
+================================
+*/
+
+body {
+  background: #e1e8ed;
+  color: #888;
+  font: 300 16px/22px, "Open Sans", "Helevetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4 {
+  color: #585555;
+}
+
+
+
+strong {
+  font-weight: 400;
+} 
+cite, em {
+  font-style: italic;
+}
+
+/*
+  ========================================
+  Links - changes color when a user hovers over an anchor
+  ========================================
+*/
+
+a:hover {
+  color: #a9b2b9;
+}
+
+a {
+  color: #648880;
+  text-decoration: none;
+}
+
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+
+a h3:hover{
+   color: #a9b2b9;
+}
+
+
+.secondary-nav {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
+.primary-footer small{
+  float: left;
+  font-weight: 400;
+}
+
+.hero {
+  color: #3e3b3b;
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero h1{
+  font-size: 36px;
+}
+
+.hero p{
+  font-size: 26px;
+  font-weight: 100;
+}
+
+
+
+p {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+.primary-nav{
+  font-size: 16px;
+  word-spacing: 2em;
+}
+
+.secondary-nav{
+  word-spacing: .75em;
+}
+
+.primary-header a,
+.primary-footer a {
+  color: #3e3b3b;
+}
+
+.primary-header a: hover,
+.primary-header a: hover{
+  color: #648880;
+}
+
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+.primary-nav{
+    text-align: right;
+}
+.nav {
+  text-align: right;
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+.hero {
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 34px;
+}
+
+.hero p {
+  font-size: 20px ;
+  font-weight: 100;
+}
+
+.teaser a:hover h5 {
+  color: #a9b2b9;
+}
+
+/*
+  ========================================
+  Google Font/Custom Styles
+  ========================================
+*/
+
+
+body {
+  color: #888;
+  font: 300 14px/20px "Roboto"
+  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+/*
+  ========================================
+  Rows
+  ========================================
+*/
+
+.row{
+  background: #fff;
+  min-width: 960px;
+  padding: 66px 0 40px 0;
+}
+
+.teaser p{
+  text-align: left;
+}
+
+.teaser h3 {
+  text-align: left;
+}
+
+/*
+  ========================================
+  Web Form
+  ========================================
+*/
+
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 15px;
+}
+input, textarea{
+  width: 445px;
+  font-size: 20px;
+}
+label {
+  font-weight: bold
+}
+input[type=submit] {
+  width: 165px;
+  padding: 10px;
+}
+input[type="checkbox"] {
+  display: inline;
+}
+label[for="checkbox"] {
+  display: inline;
+}
+input[type="text"] {
+  width: 200px;
+}
+
+
+
+/*
+  ========================================
+  Calendars
+  ========================================
+*/
+
+.calendars {
+
+}
+
+
+
